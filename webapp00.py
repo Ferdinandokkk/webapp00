@@ -16,8 +16,8 @@ st.subheader("Rústico")
 st.write("VAMO PRA CIMA PORCOOOOO")
 
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("Temperatura", "19 °C", "-15 °C")
-col2.metric("Sensação Térmica", "20°C", "-2 °C")
+col1.metric("Temperatura", "19 °C", "5 °C")
+col2.metric("Sensação Térmica", "20°C", "2 °C")
 col3.metric("Vento", "30 kmh", "-8%")
 col4.metric("Humidade", "86%", "4%")
 
