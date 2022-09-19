@@ -14,3 +14,5 @@ st.subheader("Rústico")
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("VAMO PRA CIMA PORCOOOOO")
+
+st.metric(label="Temperature", value="70 °F", delta="1.2 °F")
